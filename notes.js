@@ -96,11 +96,14 @@
 
 // topic: justify-items
 /**
+ * justify-items aligns grid-items along the row axis. It determines the horizontal alignment of items within their grid areas.
  * 
+ *     values: start, end, center, stretch
  */ 
 // topic: align-items
 /**
- * 
+ * align-items aligns grid-items along the column axis. It determines the vertical alignment of items within their grid areas.
+ *     values: start, end, center, stretch
  */ 
 // topic: justify-content
 /**
