@@ -30,6 +30,11 @@
  */
 // topic: grid-column-start, grid-column-end, grid-column, grid-row-start, grid-row-end, grid-row
 /**
+ * grid-column-start specifies where the selected grid item should start along the grid container's row axis.
+ *     values: auto, column-line-number, span(number-of-columns)
+ * 
+ * grid-column-end specifies where the selected grid item should end (or span) along the grid container's row (inline) axis.
+ * 
  * determines a grid items' location within the grid by referring to specific grid lines. grid-column-start/grid-row-start is the starting line of any items and grid-column-end/grid-row-end is the line where the item ends.
  * 
  * grid-column : grid-column-start / grid-column-end;
