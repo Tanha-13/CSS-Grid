@@ -35,6 +35,17 @@
  * 
  * grid-column-end specifies where the selected grid item should end (or span) along the grid container's row (inline) axis.
  * 
+ * grid-column is the shorthand property of grid-column-start and grid-column-end.
+ * 
+ * 
+ * grid-row-start specifies where the selected grid item should start along the grid container's column axis.
+ *     values: auto, row-line-number, span(number-of-rows)
+ * 
+ * grid-row-end specifies where the selected grid item should end along the grid container's column axis.
+ * 
+ * grid-row is the shorthand property of grid-row-start and grid-row-end properties.
+ * 
+ * 
  * determines a grid items' location within the grid by referring to specific grid lines. grid-column-start/grid-row-start is the starting line of any items and grid-column-end/grid-row-end is the line where the item ends.
  * 
  * grid-column : grid-column-start / grid-column-end;
@@ -43,5 +54,27 @@
 
 // topic: grid template areas
 /**
+ * grid-template-areas specifies the area where to place named grid items within a grid container. grid-area property is used to name grid items.
+ *     grid-template-areas: 
+ *            "<grid-area-name> <grid-area-name> ...."     (row)
+ *            "<grid-area-name>"
+ *     values: <grid-area-name>, .(specifies an empty cell), none(no grid areas are defined)
+ * 
+ * 
+ * use grid-template-columns and grid-template-rows for creating a more predictable and controlled layout. 
+ */
+
+// topic: grid-area
+/**
+ * grid-area property is used on grid items to specify the name of the area they should occupy, as defined by "grid-template-areas".Given an item a name so that it can be referenced by a template created with the grid-template-areas property.
+ * 
+ * shorthand: grid-row-start | column-start | row-end | column-end
  * 
  */
+
+// topic: grid-template
+/**
+ * shorthand property for setting grid-template-columns, grid-template-rows, grid-template-areas
+ */
+
+
