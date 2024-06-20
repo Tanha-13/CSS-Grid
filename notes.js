@@ -77,4 +77,19 @@
  * shorthand property for setting grid-template-columns, grid-template-rows, grid-template-areas
  */
 
-
+// topic: column-gap, grid-column-gap, row-gap, grid-row-gap, gap, grid-gap
+/**
+ * column-gap sets the width of the gutters between the columns.
+ *     standard: column-gap        old:grid-column-gap
+ *            column-gap:<line-size>
+ * 
+ * row-gap sets the width of the gutters between the rows.
+ *     standard: row-gap           old:grid-row-gap
+ *            row-gap: <line-size>
+ * 
+ * gap property is the shorthand of row-gap and column-gap properties.
+ *     standard:
+ *            gap:row-gap | column-gap
+ *     old:
+ *            grid-gap: grid-row-gap | grid-column-gap
+ */
