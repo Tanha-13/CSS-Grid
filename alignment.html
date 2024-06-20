@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Alignment</title>
+    <style>
+        .container{
+            display: grid;
+            height: 90vh;
+            grid-template-columns: repeat(4,200px);
+            grid-template-rows: repeat(3,100px);
+            border: 1px solid black;
+            gap: 10px 30px;
+            justify-content: center;
+            align-content: center;
+        }
+        .items{
+            background-color: chocolate;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item-1"></div>
+        <div class="items item-2"></div>
+        <div class="items item-3"></div>
+        <div class="items item-4"></div>
+        <div class="items item-5"></div>
+        <div class="items item-6"></div>
+        <div class="items item-7"></div>
+        <div class="items item-8"></div>
+        <div class="items item-9"></div>
+        <div class="items item-10"></div>
+        <div class="items item-11"></div>
+        <div class="items item-12"></div>
+    </div>
+</body>
+</html>

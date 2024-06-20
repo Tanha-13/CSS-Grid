@@ -93,3 +93,29 @@
  *     old:
  *            grid-gap: grid-row-gap | grid-column-gap
  */
+
+// topic: justify-items
+/**
+ * 
+ */ 
+// topic: align-items
+/**
+ * 
+ */ 
+// topic: justify-content
+/**
+ * justify-content aligns the grid within the grid container along the row axis. It determines how the entire grid is aligned within the container horizontally.
+ *    values: start, end, center, stretch, space-around, space-between, space-evenly 
+ * 
+ * Sometimes the total size of your grid might be less than the size of its grid container. This could happen if all of your grid items are sized with non-flexible units like px. In this case you can set the alignment of the grid within the grid container. This property aligns the grid along the inline (row) axis.
+ */ 
+// topic: align-content
+/**
+ * align-content property aligns the grid along the column (vertical) axis. It determines how the entire grid is aligned within the container vertically.
+ *     values: start, end, center, stretch, space-around, space-between, space-evenly
+ */ 
+
+//topic: place-content
+/**
+ * shorthand: align-content | justify-content
+ */
